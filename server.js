@@ -49,5 +49,7 @@ app.post('/reaction', (req, res)=>{
   
   res.send({success:true,reaction, avg:joke.reactions.avg})
 })
+
+const port = process.env.POST || 3000
  
 app.listen(3000, ()=>{console.log("App is Listening")})
