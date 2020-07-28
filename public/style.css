@@ -1,0 +1,26 @@
+.like-wrapper{
+    display: flex;
+    justify-content: space-evenlys;
+
+}
+
+.img-wrapper{
+    text-align: center;
+    width: 100%;
+}
+
+.button-wrapper{
+    width: 100%;
+    text-align: center;
+}
+
+#root{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    height: 50vh;
+}
+#root img {
+    width:  50%;
+    height: 70vh;
+}

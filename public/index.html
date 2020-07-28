@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>test</title>
+    <title>Welcome to out site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Test</h1>
+    <div class="button-wrapper">
+        <button id="button" onclick="getJoke(event)"> Click Here</button>
+    </div>
+    <div class="like-wrapper">
+        <button onclick="sendReaction('like')">Like</button>
+        <div class="img-wrapper">
+            <h1 id='avg'>0</h1>
+            <div id='root'></div>
+        </div>
+        <button onclick="sendReaction('dislike')">Dislike</button>
+    </div>
+    <script src='js/functions.js'></script>
 </body>
+
 </html>
