@@ -52,4 +52,4 @@ app.post('/reaction', (req, res)=>{
 
 const port = process.env.POST || 3000
  
-app.listen(3000, ()=>{console.log("App is Listening")})
+app.listen(port, ()=>{console.log("App is Listening on port", port)})
